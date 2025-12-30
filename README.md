@@ -1,62 +1,61 @@
-# inventory-management-system
-Inventory Management System is a powerful desktop application developed using JavaFX and MySQL, designed to streamline operations related to billing, sales reporting, and purchase tracking. The application provides users with a user-friendly interface and essential features to effectively manage inventory and generate comprehensive reports.
+**Inventory Management System**
 
-## Requirement :
-**System Requirement :**
-- Java JDK 11.0.12
-- MYSQL
-- Java FX
-  
-**System Features:**
-- Implemented functionality to display sales based on month, providing users with insights into monthly sales trends.
-- Incorporated inventory management features to track and display the remaining stocks in real-time, ensuring efficient stock control. 
-- Implemented a feature to calculate and display the total number of items sold out within the current month. 
-- Developed an invoice generation feature that allows users to create invoices for each sale, facilitating accurate and professional billing. 
-- Designed comprehensive customer information management capabilities, enabling users to retrieve, print, edit, and delete customer information as needed. 
-- Implemented a sales report feature that provides users with a detailed overview of sales data, with the option to print the report for reference. 
-- Developed a purchase report feature that allows users to view and analyze purchase data, aiding in informed decision-making. 
-- Utilized Java, JavaFX, and SQL technologies to deliver a seamless user experience and ensure efficient data management.
+The Inventory Management System is a Java-based desktop application designed to simplify and organize inventory-related operations for small businesses such as bakeries or retail stores. It provides a graphical user interface for managing products, customers, billing, sales, and purchases, ensuring accuracy and efficiency in daily business workflows.
 
-Note: The above descriptions can be further expanded or customized based on the specific functionalities, technologies, and achievements in your application.
+**Features**
 
-## How to install and start the application:
+Secure admin login system
 
+Product and stock management
 
-- To install all the dependencies:
+Customer management with contact details
 
-            mvn clean install
-            
-- To start application using mvn command:
+Billing and invoice generation
 
-            mvn compile exec:java
-           
-- To create executable jar file in shade directory:
+Sales and purchase tracking
 
-            mvn compile package
-           
-## Demo:
+Automatic calculation of totals and reports
 
-https://github.com/rashidmakki/inventory-management-system/assets/52795057/12cb1dbd-8858-4b94-9c96-24231a3977bd
+Clean and interactive graphical user interface
 
+**Tech Stack**
 
-## Bakery/Café Rebrand Notes
-- The UI has been rebranded to "Bakery & Café Inventory System" (window title and dashboard header).
-- Food-themed icons (coffee/cutlery) were added using FontAwesome where appropriate.
+Java
 
-### Adding real food images
-Place your images under:
-- src/main/resources/com/inventorymanagementsystem/images/
+JavaFX for GUI
 
-Then reference them in FXML using an ImageView. Example:
+JDBC for database connectivity
 
-<ImageView fitHeight="120.0" fitWidth="240.0">
-  <image>
-    <Image url="@com/inventorymanagementsystem/images/bakery-banner.png" />
-  </image>
-</ImageView>
+MySQL database
 
-Notes:
-- Ensure the image path is relative to the classpath and starts with @ when used in FXML.
-- Supported formats: PNG/JPG/GIF.
-- You can add such ImageView nodes to login-view.fxml, dashboard.fxml, or bills.fxml as needed.
+Maven for dependency management
 
+**Use Case**
+
+This system is suitable for:
+
+Small businesses
+
+Retail stores
+
+Bakery or café inventory management
+
+Academic Java projects and demonstrations
+
+**Future Enhancements**
+
+Online database integration
+
+Role-based access control
+
+Real-time analytics and reports
+
+Cloud-based deployment
+
+**Conclusion**
+
+This Inventory Management System demonstrates how Java and JavaFX can be used to build a practical, user-friendly, and efficient business application. It reduces manual effort, minimizes errors, and improves overall productivity.
+
+**Demo:**
+
+https://github.com/user-attachments/assets/1a9a88ac-5477-4fa6-b9ba-23bb4bdd1815
